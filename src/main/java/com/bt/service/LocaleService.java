@@ -11,6 +11,7 @@ public class LocaleService implements ILocalServices {
 
 	@Override
 	public List<String> getAllCountries() {
+		System.out.println("LocaleService.getAllCountries()");
 		Locale locales[]=null;
 		List<String> CountriesList=null;
 		

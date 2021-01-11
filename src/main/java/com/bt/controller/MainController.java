@@ -23,6 +23,7 @@ public class MainController {
 	}
 	@GetMapping(value="/countries")
 	public String allCountriesList(ModelMap map){
+		System.out.println("MainController.allCountriesList()");
 		//ModelAndView mav=null;
 		
 		List<String> CountriesList=null;

@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1 style="color:green;text-align:center">Show Home Page</h1>
+<h1 style="color:green;text-align:center">SHOW HOME PAGE</h1>
 <a href="countries">All Countries</a>
 <hr>
 <!-- <form action="first" method="post">

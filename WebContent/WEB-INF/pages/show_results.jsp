@@ -4,7 +4,7 @@
 <h1 style="color:blue;text-align:center">All ${listCountries} INFO</h1>
 <c:choose>
 	<c:when test="${listInfo ne null && !empty listInfo }">
-	<table align="center" bgcolor="cyan">
+	<table align="center" bgcolor="green">
 	<c:forEach var="country" items="${listInfo}">
 		<tr>
 			<td style="color:blue">${country }</td>
